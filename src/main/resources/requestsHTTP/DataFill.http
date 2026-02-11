@@ -1,0 +1,118 @@
+###
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Coupe",
+  "description": "Une coupe simple",
+  "price" : 15,
+  "duration": 30,
+  "byPhone": false,
+  "vip": false
+}
+
+###
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Coupe et barbe",
+  "description": "Une coupe simple et le rasage ou traçage de votre barbe",
+  "price" : 25,
+  "duration": 45,
+  "byPhone": false,
+  "vip": false
+}
+
+###
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Taille de la barbe + Soin",
+  "description": "Barbe et soins",
+  "price" : 10,
+  "duration": 15,
+  "byPhone": false,
+  "vip": false
+}
+
+###
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Rasage de la barbe + Soins !!",
+  "description": "Rasage de la barbe et soins avec 2 serviettes chaudes inclues dans les 2 sens du poil et soin",
+  "price" : 25,
+  "duration": 15,
+  "byPhone": false,
+  "vip": false
+}
+
+###
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Permanente bouclée",
+  "description": "Permanente bouclée à partir de 40€",
+  "price" : 40,
+  "byPhone": false,
+  "vip": false
+}
+
+###
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Décoloration / Mèche",
+  "description": "Décoloration / Mèche à partir de 30€",
+  "price" : 30,
+  "byPhone": false,
+  "vip": false
+}
+
+###
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Lissage japonais",
+  "description": "Lissage japonais à partir de 40€",
+  "price" : 50,
+  "byPhone": false,
+  "vip": false
+}
+
+### Create extra
+POST http://13.37.46.155:8080/extra
+Content-Type: application/json
+
+{
+  "name": "Shampoing",
+  "description": "",
+  "price": 5
+}
+
+### Create extra
+POST http://13.37.46.155:8080/extra
+Content-Type: application/json
+
+{
+  "name": "Serviette chaude",
+  "description": "",
+  "price": 5
+}
+
+### Create extra
+POST http://13.37.46.155:8080/extra
+Content-Type: application/json
+
+{
+  "name": "Contour d'oreille",
+  "description": "",
+  "price": 5
+}
+

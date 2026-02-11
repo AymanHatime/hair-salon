@@ -1,0 +1,33 @@
+### List extras
+GET http://localhost:8080/extra
+
+### Get extra by Id
+GET http://localhost:8080/extra/097faaf0-bfcc-4769-95ed-3d4b4cce12e8
+
+### Create extra
+POST http://localhost:8080/extra
+Content-Type: application/json
+
+{
+  "name": "Cone d'oreilles",
+  "description": "Rasage des cones d'oreilles",
+  "price": 10
+}
+
+### Delete extra
+DELETE http://localhost:8080/extra/097faaf0-bfcc-4769-95ed-3d4b4cce12e8
+
+
+### Test
+POST https://hairtistapinode.onrender.com/ajouter-evenement
+Content-Type: application/json
+
+{
+  "startDateTime": "2025-02-01T10:00:00",
+  "endDateTime": "2025-02-01T11:00:00",
+  "clientName": "Jean Dupont",
+  "description": "Réservation pour une coupe de cheveux"
+}
+
+###
+GET https://hairtistapinode.onrender.com

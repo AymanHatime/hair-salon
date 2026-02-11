@@ -1,0 +1,31 @@
+### Return all products
+GET localhost:8080/product
+
+### Create a new product
+POST http://13.37.46.155:8080/product
+Content-Type: application/json
+
+{
+  "name": "Coloration",
+  "description": "Une coloration de la couleur de votre choix",
+  "price": 50.0,
+  "duration": 60,
+  "byPhone": true,
+  "vip": false
+}
+
+### Update a product
+PUT localhost:8080/product/fcbb10f2-4e93-421e-8261-0f1c336576d8
+Content-Type: application/json
+
+{
+  "name": "Décoloration / Mèche",
+  "description": "Décoloration / Mèche à partir de 30€",
+  "price": 30.0,
+  "duration": 0,
+  "byPhone": true,
+  "vip": false
+}
+
+### Delete a product
+DELETE localhost:8080/product/781267b5-c20e-4fe0-918e-38d8c35ac9c3

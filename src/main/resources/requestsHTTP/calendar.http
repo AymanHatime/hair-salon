@@ -1,0 +1,12 @@
+### Create calendar event
+GET http://localhost:8080/api/calendar/create-event
+
+###
+POST http://localhost:8080/reservations/confirm
+Content-Type: application/json
+
+{
+  "name": "Aymaaan",
+  "desription": "P'tite coupe 2 ?",
+  "dateTimeStart": "2025-01-01T17:00:00"
+}

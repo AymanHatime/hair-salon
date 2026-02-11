@@ -1,0 +1,17 @@
+### List orders
+GET http://localhost:8080/order
+
+### Get order by Id
+GET http://localhost:8080/order/??????
+
+### Get session order
+GET http://localhost:8080/order/ses
+
+### Create order
+POST http://localhost:8080/order/059dea71-883e-4771-95bd-b4e3c4e68068
+
+### Delete order
+DELETE http://localhost:8080/order/deleteorder/23aa2e94-c922-4516-aa05-fc56363a85f3
+
+### Get reserved slots
+GET http://localhost:8080/order/reservedSlots
